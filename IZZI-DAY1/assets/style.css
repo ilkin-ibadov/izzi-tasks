@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Login{
+    background-image: url('https://blitzen.com/blog/wp-content/uploads/new-tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .white{
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+    clip-path: polygon(50% 0, 100% 15%, 100% 85%, 50% 100%, 0% 85%, 0% 15%);
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .white .text{
+    padding: 10px 20px;
+    border-bottom: 2px solid grey;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Login .white .form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Login .white .form input{
+    margin: 20px 0;
+    border: none;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Login .white .form .shadow{
+    box-shadow: 0px 2px 3px 0px grey;
+}
+
+.Login .white .form .shadow:focus{
+    box-shadow: none;
+}
+
+.Login .white .form input:focus{
+    
+    outline: #2871AA 2px solid;
+}
+
+.Login .white .form .button input{
+    background-color: #2871AA;
+     color: white;
+      align-self: center;
+       font-weight: 700;
+        font-size: 20px;
+        padding: 10px 60px;
+}
+
+.Login .white .form .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Login .white .form .button a{
+    text-decoration: none;
+    color: #2871AA;
+    font-weight: 700;
+
+}
+
+.Login .white .form .button .smedia img{
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 3px 0px grey;
+}
+
+.Login .white .form .button .smedia img:focus{
+    box-shadow: none;
+}
