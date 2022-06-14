@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header{
+      text-align: center;
+  }
+
+  header h1{
+      font-size: 1rem;
+      margin: 1rem 0;
+  }
+
+  main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+  }
+
+  main .chat{
+      border-top: 1px solid lightgrey;
+      border-bottom: 1px solid lightgrey;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  main .chat .imageholder{
+      width: 20%;
+  }
+
+  main .chat .textbox{
+      width: 80%;
+  }
+
+  main .chat h3{
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+  }
+
+
+  main .menu .buttons a{
+      margin: 20px;
+      color: gray;
+  }
+
+  main .menu .buttons a:nth-child(3){
+    background: rgb(251,153,63);
+    background: linear-gradient(90deg, rgba(251,153,63,1) 0%, rgba(252,70,161,1) 100%);
+    padding: 0.5em 1.5rem;
+    border-radius: 20px;
+    color: white;
+  }
+
+  main .menu .buttons{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  main .menu .tab{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+  }
+
+  main .menu .tab .line{
+      width: 8em;
+      height: 0.3em;
+      border-radius: 20px;
+      background-color: black;
+  }
