@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav .container {
+  background-color: #303d4e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header nav .container a {
+  text-decoration: none;
+}
+
+header nav .container .logo a {
+  color: #4a9e86;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+header nav .container .controls a {
+  color: white;
+  font-size: clamp(0.5rem, 0.5rem + 0.5vw, 1rem);
+  margin: 0 0.5rem;
+}
+
+main .news {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #75147c;
+  align-items: center;
+}
+
+@media (max-width: 40em) {
+  main .news p {
+    display: none;
+  }
+  main .news {
+      display: block;
+      text-align: center;
+  }
+  main .news .image img{
+      max-width: 100%;
+      max-height: 100%;
+  }
+}
+
+main .news .textbox {
+  max-width: 40vw;
+}
+main .news .textbox h1 {
+  font-size: clamp(2rem, 2rem + 1vw, 4rem);
+  margin-bottom: 0.5rem;
+}
+
+main .news .textbox p {
+  font-size: clamp(0.5rem, 0.5rem + 0.5vw, 1rem);
+}
+
+main .news .textbox h1,
+p {
+  color: white;
+}
+
+main .news .image {
+  margin: 0.5rem 0;
+}
+
+main .news .image img {
+  max-width: 50vw;
+  max-height: 40vh;
+  border-radius: 20px;
+}
+
+main .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 40em) {
+  main .boxes {
+    display: block;
+  }
+}
+
+main .boxes .box {
+  background-color: #4a9e86;
+  padding: 4rem;
+  margin: 3rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+main .boxes .box i {
+  font-size: 4rem;
+  color: white;
+}
+
+main .boxes .box h3 {
+  color: white;
+  font-size: 1rem;
+  margin: 0.7rem 0;
+}
