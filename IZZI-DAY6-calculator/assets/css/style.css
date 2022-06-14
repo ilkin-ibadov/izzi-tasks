@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.App .container .inputs .white input{
+    background-color: white!important;
+    color: black!important;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body img{
+    height: 30em;
+    position: relative;
+    top: 4em;
+    right: 10em;
+}
+
+.App{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 6em;
+    right: 38em;
+    height: 32em;
+    width: 17em;
+    background-color: #323232;
+    box-shadow: -3px 3px 10px grey;
+}
+
+.App .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 28em;
+    overflow: hidden;
+}
+
+.App .container .calculations{
+    color: white;
+}
+
+.App .container .results{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    width: 13em;
+    border-bottom: 1px solid #70e3cd;
+    color: white;
+}
+
+.App .container .results h3{
+    color: white;
+}
+
+.App .container .inputs{
+    display: grid;
+    grid-template-columns: repeat(4, 2.5em);
+    grid-gap: 1em;
+    width: 13em;
+    height: 17em;
+    font-size: 1.1em;
+}
+
+.App .container .calculations{
+    height: 2em;
+    width: 12em;
+}
+
+.App .container .inputs .round{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App .container .inputs .round input{
+    background-color: #70e3cd;
+    color: white;
+    border: none;
+    padding: 2.5em;
+}
+
+.App .container .inputs .round input:hover{
+    cursor: pointer;
+}
