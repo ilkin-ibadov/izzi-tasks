@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #292a29;
+}
+header{
+    height: fit-content;
+}
+
+header nav{
+    width: 100vw;
+    height: 4em;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #aa872c;
+}
+
+header nav .container{
+    width: 60em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo span{
+    font-size: 1rem;
+    color: #aa872c;
+    overflow: hidden;
+}
+
+header nav .logo a{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #aa872c;
+}
+
+header nav .buttons a{
+    text-decoration: none;
+    color: #aa872c;
+    padding: 1em;
+    border: 1px solid #1b1b1b;
+    border-bottom: none;
+}
+
+header nav .buttons a:hover{
+    background-color: #292a29;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #aa872c;
+    border-bottom: 1px solid #292a29;
+    padding-bottom: 1.4em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main #second{
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+main .product{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+}
+
+main .product .imageholder{
+    border: 3px solid #aa872c ;
+    border-radius: 30px;
+}
+
+main .product .imageholder img{
+    width: 20em;
+    border: 2em solid #1b1b1b;
+    border-radius: 30px;
+    margin: 0.5em;
+}
+
+main .product .textbox{
+    width: 50%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18em;
+}
+
+main #second .textbox{
+    justify-content:flex-start;
+}
+
+main #second .textbox h3{
+    margin-bottom: 2em;
+}
+
+main #second .person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #aa872c;
+    padding: 2em;
+    background-color: #1b1b1b;
+    border: 3px solid #aa872c ;
+    border-radius: 30px;
+    
+}
+
+main #third .persons{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #aa872c;
+    padding: 2em;
+    background-color: #1b1b1b;
+    border: 3px solid #aa872c ;
+    border-radius: 30px;
+    
+}
+
+main #third .person{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+main #second .person .image{
+    display: flex;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+
+main #third .person .image{
+    display: flex;
+    margin-right: 1em;
+    align-items: center;
+}
+
+
+main #second .person .image img{
+    width: 6em;
+    border-radius: 100%;
+    padding: 0.3em;
+    border: 3px solid #aa872c;
+}
+
+main #third .person .image img{
+    width: 6em;
+    border-radius: 100%;
+    padding: 0.3em;
+    border: 3px solid #aa872c;
+}
+
+main #second .person .image i{
+    color: #aa872c;
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+
+main #second .person .persontext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 7em;
+    justify-content: space-between;
+}
+
+main #second .person .persontext h3{
+    font-size: 1rem;
+    color: #aa872c;
+}
+
+main #third .person .image i{
+    color: #aa872c;
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+
+main #third .person .persontext{
+    display: flex;
+    flex-direction: column;
+}
+
+main #third .person .persontext h3{
+    font-size: 1rem;
+    color: #aa872c;
+}
+
+main #third .person .persontext p{
+    color: wheat;
+}
+
+main .product .textbox h3{
+    color: #885b01;
+
+}
+
+main .product .textbox h4{
+    color: #aa872c;
+}
+
+main .product .textbox p{
+    color: wheat;
+}
+
+main .product .textbox button{
+    width: 10em;
+    border: none;
+    background-color: #885b01;
+    border-radius: 5px;
+    color: wheat;
+    padding: 1em;
+    font-weight: 700;
+}
+
+@media (max-width: 40em){
+    main .product{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2em;
+    }
+
+    header nav .buttons{
+        display: none;
+    }
+}
