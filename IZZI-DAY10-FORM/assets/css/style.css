@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mainContainer{
+    display: flex;
+}
+
+#formContainer {
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4em;
+}
+
+#formHeader h1 {
+  
+  margin-bottom: 0.4em;
+}
+
+
+#formHeader img {
+    margin-left: -1em;
+  width: 6em;
+  height: 6em;
+}
+
+#formHeader a {
+    font-weight: 400;
+  text-decoration: none;
+}
+
+#social {
+  display: flex;
+ flex-direction: column;
+  width: 22em;
+  
+  margin-top: 2em;
+}
+
+#label{
+    font-weight: 600;
+    color: #5f6774;
+    margin-bottom: 0.5em;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+#social a {
+  padding: 0.5em 2em;
+  border: 1px solid #5f6774;
+  color: #5f6774;
+  border-radius: 0.5em;
+}
+
+#break{
+display: flex;
+width: 22em;
+justify-content: space-between;
+align-items: center;
+margin-top: 2em;
+}
+
+#break span{
+    color: #5f6774;
+    
+}
+
+#break .line{
+    width: 6.5em;
+    height: 0.05em;
+    background-color: #5f6774
+}
+
+#inputs{
+    color: #5f6774;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 22em;
+    margin-top: 1em;
+}
+
+#inputs input{
+    border-radius: 0.5em;
+    border: 0.05em solid #5f6774;
+    padding: 0.3em 0!important;
+    margin: 0.5em 0;
+}
+
+#rememberDiv{
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#options a{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#signIn{
+    margin-top: 1em;
+    padding: 0.5em 11em;
+    background-color: #4245dc;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+#errorMsg{
+    color: red;
+}
+
+@media (max-width: 82em){
+    #formContainer{
+        margin: 0;
+    }
+}
+
+@media (max-width: 60em){
+    #imgContainer{
+        display: none;
+    }
+    form{
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 27em){
+    #formContainer{
+        width: 20em;
+        margin: 0;
+    }
+
+    #social{
+        width: 20em;
+    }
+    #break{
+        width: 20em;
+    }
+
+    #break .line{
+        width: 5em;
+    }
+    #inputs{
+        width: 20em;
+    }
+    #options{
+        width: 20em;
+    }
+    #signIn{
+        padding: 1em 10.5em;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 24em){
+    #formContainer{
+        width: 16em;
+        margin: 0;
+    }
+
+    #social{
+        width: 16em;
+    }
+    #break{
+        width: 16em;
+    }
+
+    #break .line{
+        width: 3.5em;
+    }
+    #inputs{
+        width: 16em;
+    }
+    #options{
+        width: 20em;
+        font-size: 0.8em;
+    }
+    #rememberDiv{
+        width: 8.5em;
+    }
+    #signIn{
+        padding: 1em 0;
+        width: 100%;
+        font-size: 0.7em;
+    }
+}
