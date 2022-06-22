@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/images/brain\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#app {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.486);
+  padding: 4em;
+  border-radius: 1em;
+  margin-top: 1em;
+  height: 95vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+nav h1 {
+  font-size: 3em;
+  color: white;
+}
+
+#dash {
+  display: flex;
+  justify-content: space-between;
+  width: 50em;
+}
+
+#time {
+  padding: 1em;
+  border-radius: 100%;
+  background-color: gray;
+  color: white;
+}
+
+#score {
+  background-color: grey;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 100%;
+}
+
+#start {
+  padding: 0.3em 4em;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#info {
+  width: 22em;
+  height: fit-content;
+  color: white;
+  background-color: black;
+  border-radius: 0.5em;
+  padding: 2em;
+}
+
+#controlButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8em;
+}
+
+#controlButtons button {
+  padding: 1em 0em;
+  width: 100%;
+  margin: 0.5em;
+}
+
+#game {
+  margin: 1em;
+}
+
+#wordBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  background-color: white;
+  margin: 0.2em;
+  border-radius: 1em;
+}
+
+#wordContainer {
+  display: flex;
+}
+
+#keyContainer {
+  width: 22em;
+  height: 12em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#keyBox {
+  width: 2em;
+  height: 2em;
+  margin: 0.5em;
+  padding: 1.5em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  background-color: #0efff2;
+}
